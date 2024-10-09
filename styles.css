@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    width: 300px;
+    min-height: 150px;  /* Altura mínima ajustada */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px; /* Reduzido para menos espaço */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: min-height 0.3s ease; /* Animação para altura */
+  }
+  
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    width: 100%; /* Ajusta a largura */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px; /* Espaçamento reduzido */
+    font-size: 14px;
+    box-sizing: border-box; /* Inclui padding e border na largura */
+  }
+  
+  button {
+    background-color: orange;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Garante que o botão tenha a mesma largura do input */
+    font-size: 14px;
+    box-sizing: border-box; /* Inclui padding na largura */
+    margin-bottom: 10px; /* Margem para espaço abaixo do botão */
+  }
+  
+  .result {
+    margin-top: 10px; /* Reduzido para menos espaço */
+    text-align: left;
+    width: 100%; /* Largura total */
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: none; /* Oculto inicialmente */
+    box-sizing: border-box; /* Inclui padding e border na largura */
+    overflow: hidden; /* Oculta o que estiver fora do contêiner */
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+  

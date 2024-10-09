@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "CNPJ Search",
+    "version": "1.0",
+    "description": "Consulta dados de CNPJ e exibe razão social, nome fantasia, email, e CNPJ matriz.",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
